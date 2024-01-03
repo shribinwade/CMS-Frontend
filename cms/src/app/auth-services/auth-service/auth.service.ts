@@ -17,4 +17,10 @@ export class AuthService {
       headers:new HttpHeaders().set('Content-Type', 'application/json')
     })
   }
+
+  login(data:any):Observable<any>{
+    return this.http.post<[]>(BASIC_URL + "user/login",data,{
+      headers:new HttpHeaders().set('Content-Type', 'application/json')
+    })
+  }
 }

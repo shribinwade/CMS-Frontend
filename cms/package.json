@@ -22,6 +22,7 @@
     "d3-shape": "^3.2.0",
     "d3-zoom": "^3.0.0",
     "dagre-compound": "^0.0.13",
+    "jwt-decode": "^4.0.0",
     "monaco-editor-auto-typings": "^0.4.5",
     "ng-zorro-antd": "^16.2.2",
     "rxjs": "~7.8.0",
