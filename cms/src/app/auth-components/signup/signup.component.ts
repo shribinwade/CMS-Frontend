@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { NzNotificationComponent, NzNotificationService } from 'ng-zorro-antd/notification';
+import { NzNotificationService } from 'ng-zorro-antd/notification';
 import { AuthService } from 'src/app/auth-services/auth-service/auth.service';
-import { DemoNgZorroAntdModule } from 'src/app/DemoNgZorroAntdModule';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',

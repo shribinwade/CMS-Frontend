@@ -58,4 +58,8 @@ export class StorageService {
     const role: string = this.validateRole();
     return role == "user";
   }
+
+  static signout(){
+    window.localStorage.removeItem(TOKEN);
+  }
 }
